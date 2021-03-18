@@ -54,8 +54,8 @@
     left: calc(50% - 111px);
     top:-32px;
 }
-.social-media > a{
-    color: black;
+.social-media a{
+    
     width: 48px;
     height: 48px;
     display: flex;
@@ -63,6 +63,9 @@
     justify-content: center;
     background: #fff;
     border-radius: 50%;
+}
+.social-media svg{
+    color: black;
 }
 
 .content{
